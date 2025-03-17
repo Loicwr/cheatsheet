@@ -1,4 +1,4 @@
-Test2Test
+ATTENTION CREER UN REPO DEPUIS MON TERMINAL  : gh repo create NomDeMonRepo --public --source=. --remote=origin
 Une Pull Request (PR) est une demande de fusion (merge) d’une branche de travail dans une branche principale (souvent main ou master) dans un dépôt de code
 
 Le rebase réécrit l'historique et peut rendre l'historique plus propre et linéaire. 
