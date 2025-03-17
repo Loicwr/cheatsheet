@@ -150,3 +150,19 @@ Git applique les configurations dans cet ordre de priorité :
     Local (au niveau du dépôt) – a la priorité la plus élevée.
     Global (au niveau de l'utilisateur) – s'applique si aucune configuration locale n'est définie.
     Système (au niveau du système) – a la priorité la plus faible et est utilisée si aucune configuration locale ou globale n'est définie.
+
+
+
+
+
+    Ajouter un alias :
+
+git config --global alias.[alias] "[commande]"
+
+Vérifier les alias :
+
+git config --get-regexp alias
+
+Supprimer un alias :
+
+git config --global --unset alias.[alias]
