@@ -21,3 +21,25 @@ Cela crée et bascule sur une nouvelle branche.
 Fusionner une branche : Lorsque vous avez terminé de travailler sur une branche, vous pouvez la fusionner avec une autre branche (généralement la branche main ou develop) :
 git checkout main
 git merge nouvelle-branche
+
+La différence entre git switch et git checkout réside principalement dans leur utilisation et leur objectif.
+Bien que les deux commandes puissent être utilisées pour changer de branche, git switch a été introduit dans Git 2.23 pour simplifier et clarifier certaines actions courantes liées aux branches. 
+
+Principales différences
+Action	                                                        git checkout	                                         git switch
+Changer de branche	                              git checkout nom-de-la-branche                                git switch nom-de-la-branche
+Créer et changer de branche	                      git checkout -b nouvelle-branche	                            git switch -c nouvelle-branche
+Restaurer des fichiers	                              git checkout -- fichier.txt	                            Pas de support pour cette fonction
+Simplicité	                                      Plus complexe, plusieurs usages	                            Spécifiquement conçu pour les branches
+
+
+Pourquoi utiliser git switch ?
+
+    Simplicité : La commande git switch rend le changement de branche plus explicite et moins confus.
+    Clarté : git switch se concentre uniquement sur la gestion des branches, tandis que git checkout gère aussi les fichiers, ce qui peut prêter à confusion.
+    Éviter les erreurs : L'introduction de git switch réduit les risques d'erreurs, car elle ne permet pas de manipuler des fichiers de manière imprévue.
+
+Conclusion
+
+    Utilisez git switch pour tout ce qui concerne le changement de branche et la création de nouvelles branches. Cette commande est plus claire et mieux adaptée aux actions liées aux branches.
+    Vous pouvez toujours utiliser git checkout pour des tâches plus avancées comme la restauration de fichiers ou pour une compatibilité avec les versions antérieures de Git.
