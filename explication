@@ -1,4 +1,4 @@
-Test
+Test2Test
 Une Pull Request (PR) est une demande de fusion (merge) d’une branche de travail dans une branche principale (souvent main ou master) dans un dépôt de code
 
 Le rebase réécrit l'historique et peut rendre l'historique plus propre et linéaire. 
@@ -33,7 +33,7 @@ Créer et changer de branche	                      git checkout -b nouvelle-bran
 Restaurer des fichiers	                              git checkout -- fichier.txt	                            Pas de support pour cette fonction
 Simplicité	                                      Plus complexe, plusieurs usages	                            Spécifiquement conçu pour les branches
 
-
+test 3
 Pourquoi utiliser git switch ?
 
     Simplicité : La commande git switch rend le changement de branche plus explicite et moins confus.
