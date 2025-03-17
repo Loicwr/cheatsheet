@@ -141,3 +141,12 @@ Exécutez cette commande pour configurer Git à exécuter --prune par défaut :
 git config --global fetch.prune true
 
 Cela garantit que Git supprime automatiquement les branches distantes supprimées chaque fois que vous utilisez git fetch.
+
+
+Priorité des configurations
+
+Git applique les configurations dans cet ordre de priorité :
+
+    Local (au niveau du dépôt) – a la priorité la plus élevée.
+    Global (au niveau de l'utilisateur) – s'applique si aucune configuration locale n'est définie.
+    Système (au niveau du système) – a la priorité la plus faible et est utilisée si aucune configuration locale ou globale n'est définie.
