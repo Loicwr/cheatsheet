@@ -1,0 +1,23 @@
+Une Pull Request (PR) est une demande de fusion (merge) d’une branche de travail dans une branche principale (souvent main ou master) dans un dépôt de code
+
+Le rebase réécrit l'historique et peut rendre l'historique plus propre et linéaire. 
+Le merge préserve l'historique exact et crée un commit de fusion.
+Il est recommandé de rebaser des branches locales avant de les pousser pour garder un historique propre, mais le merge est souvent préféré dans les projets collaboratifs pour préserver la trace des fusions.
+
+Synchroniser votre fork avec l'upstream : Pour récupérer les modifications de l'upstream (le dépôt d'origine), vous pouvez faire :
+    git fetch upstream
+    git checkout main
+    git merge upstream/main
+Cela vous permettra de garder votre fork à jour avec les modifications apportées au dépôt d'origine.
+
+La commande git stash permet de mettre de côté temporairement vos modifications locales (non validées) afin de pouvoir travailler sur autre chose sans perdre votre travail en cours.
+Vous pouvez aussi utiliser git stash pop, qui applique et supprime le stash en une seule commande.
+
+Les branches dans Git permettent de travailler sur différentes versions d’un projet de manière isolée. Cela permet de développer de nouvelles fonctionnalités, corriger des bugs ou tester sans affecter la branche principale.
+Créer une branche :
+git checkout -b nouvelle-branche
+Cela crée et bascule sur une nouvelle branche.
+
+Fusionner une branche : Lorsque vous avez terminé de travailler sur une branche, vous pouvez la fusionner avec une autre branche (généralement la branche main ou develop) :
+git checkout main
+git merge nouvelle-branche
