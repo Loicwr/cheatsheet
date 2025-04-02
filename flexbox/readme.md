@@ -91,5 +91,5 @@
 }
 ```
 ## Image css flexbox  
-<img src="https://miro.medium.com/v2/resize:fit:720/format:webp/0*YeaUsQyhXSL1TCTH.png">
+<img src="../images/flexbox.webp"
 ---
