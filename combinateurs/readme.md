@@ -159,3 +159,7 @@ h1 ~ p {
 | **Enfant direct (`>`)** | `div > p { color: blue; }` | 🔵 Seulement les `<p>` qui sont enfants directs d'un `<div>` |
 | **Frère suivant (`+`)** | `h1 + p { color: green; }` | 🟢 Le premier `<p>` qui suit immédiatement un `<h1>` |
 | **Frère général (`~`)** | `h1 ~ p { color: purple; }` | 🟣 Tous les `<p>` qui suivent un `<h1>`, même s'il y a d'autres éléments entre eux |
+
+### Image explication
+
+<img source="https://guinatal.github.io/images/posts/Combinators.png">
