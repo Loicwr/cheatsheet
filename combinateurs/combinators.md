@@ -150,3 +150,12 @@ h1 ~ p {
 ```
 
 ---
+
+## 🔥 Récapitulatif visuel des combinateurs
+
+| 🏷️ Combinateur          | 🎨 Exemple CSS             | 🎯 Sélectionne |
+|----------------------|--------------------------|-------------|
+| **Descendant (` `)**  | `div p { color: red; }`  | 🔴 Tous les `<p>` à l'intérieur d'un `<div>` |
+| **Enfant direct (`>`)** | `div > p { color: blue; }` | 🔵 Seulement les `<p>` qui sont enfants directs d'un `<div>` |
+| **Frère suivant (`+`)** | `h1 + p { color: green; }` | 🟢 Le premier `<p>` qui suit immédiatement un `<h1>` |
+| **Frère général (`~`)** | `h1 ~ p { color: purple; }` | 🟣 Tous les `<p>` qui suivent un `<h1>`, même s'il y a d'autres éléments entre eux |
