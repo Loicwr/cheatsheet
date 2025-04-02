@@ -14,5 +14,8 @@ Cette section contient des rappels sur la syntaxe de base, l'insertion de CSS, a
 ### 3. [**Flexbox**](flexbox/readme.md)
 Flexbox est un modèle de mise en page en CSS qui permet de créer des mises en page flexibles et réactives. Ce fichier résume les propriétés essentielles et la syntaxe à connaître.
 
-### 5. [**Positionnement**](positionnement/readme.md)
+### 4. [**Positionnement**](positionnement/readme.md)
 Le positionnement en CSS permet de manipuler la position des éléments sur la page. Cette section présente les différentes méthodes de positionnement disponibles en CSS : `static`, `relative`, `absolute`, `fixed`, et `sticky`.
+
+### 5. [**Unités CSS**](unités-Css/readme.md)
+Ce fichier décrit les unités de mesure couramment utilisées en CSS, comme les unités relatives (`em`, `rem`, `%`) et absolues (`px`, `vw`, `vh`, etc.), ainsi que leur utilisation appropriée dans le contexte de mise en page.
