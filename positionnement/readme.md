@@ -86,7 +86,7 @@ L'élément reste à la même position, même si l'utilisateur fait défiler la 
 ## 5️⃣ **`sticky`**
 
 **Comportement** :  
-L'élément se comporte comme un élément `relative` jusqu'à ce qu'il atteigne une position donnée dans la fenêtre du navigateur, après quoi il devient "collant" et reste fixé.
+L'élément se comporte comme un élément `relative` jusqu'à ce qu'il atteigne une position donnée dans la fenêtre du navigateur( pixel 0), après quoi il devient "collant" et reste fixé.
 
 ```css
 div {
