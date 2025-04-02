@@ -19,3 +19,6 @@ Le positionnement en CSS permet de manipuler la position des éléments sur la p
 
 ### 5. [**Unités CSS**](unités-Css/readme.md)
 Ce fichier décrit les unités de mesure couramment utilisées en CSS, comme les unités relatives (`em`, `rem`, `%`) et absolues (`px`, `vw`, `vh`, etc.), ainsi que leur utilisation appropriée dans le contexte de mise en page.
+
+### 6. [**Combinateurs**](combinateurs/readme.md)
+Les combinateurs en CSS permettent de sélectionner des éléments en fonction de leur relation avec d'autres éléments. Cette cheatsheet couvre les différents types de combinateurs et leur utilisation.
