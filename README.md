@@ -11,3 +11,5 @@ Ce fichier regroupe les éléments HTML5 sémantiques et leur utilisation afin d
 Cette section contient des rappels sur la syntaxe de base, l'insertion de CSS, ainsi que les différents types de sélecteurs utilisés pour cibler les éléments à styliser.
 
 
+### 3. [**Flexbox**](flexbox/readme.md)
+Flexbox est un modèle de mise en page en CSS qui permet de créer des mises en page flexibles et réactives. Ce fichier résume les propriétés essentielles et la syntaxe à connaître.
