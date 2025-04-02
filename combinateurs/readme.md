@@ -162,4 +162,4 @@ h1 ~ p {
 
 ### Image explication
 
-<img src="https://guinatal.github.io/images/posts/Combinators.png">
+<img src="../images/Combinators.png">
