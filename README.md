@@ -22,3 +22,14 @@ Ce fichier décrit les unités de mesure couramment utilisées en CSS, comme les
 
 ### 6. [**Combinateurs**](combinateurs/readme.md)
 Les combinateurs en CSS permettent de sélectionner des éléments en fonction de leur relation avec d'autres éléments. Cette cheatsheet couvre les différents types de combinateurs et leur utilisation.
+
+### Auteur & collaborateurs :
+
+- **GitHub**: [Loic](https://github.com/Loicwr)
+- **GitHub**: [Abdellah](https://github.com/abdellah59)
+
+### Outils Utilisés
+
+- ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+- ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+- ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
