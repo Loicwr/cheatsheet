@@ -11,3 +11,33 @@ div p {
   color: red;
 }
 ```
+
+### 🏗️ HTML :
+
+```html
+<div>
+  <p>Ce texte sera rouge.</p>
+  <div>
+    <p>Ce texte sera aussi rouge.</p>
+    <div>
+      <p>Ce texte sera également rouge.</p>
+    </div>
+  </div>
+</div>
+```
+
+### 🎨 Schéma :
+
+```html
+<div>
+  <p>🔴 rouge</p>          <-- Sélectionné
+  <div>
+    <p>🔴 rouge</p>        <-- Sélectionné
+    <div>
+      <p>🔴 rouge</p>      <-- Sélectionné
+    </div>
+  </div>
+</div>
+```
+
+---
