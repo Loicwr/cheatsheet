@@ -77,3 +77,38 @@ div > p {
 ```
 
 ---
+
+## 3️⃣ Combinateur frère suivant (`+`) 🟢
+
+🔹 **Le combinateur frère suivant** sélectionne l'élément qui suit immédiatement un autre élément dans le même niveau hiérarchique (frère immédiat).
+
+### ✨ Exemple :
+
+```css
+h1 + p {
+  color: green;
+}
+```
+
+### 🏗️ HTML :
+
+```html
+<h1>Titre 1</h1>
+<p>Ce texte sera vert, car il suit immédiatement le <h1>.</p>
+<p>Ce texte ne sera pas vert, car il ne suit pas immédiatement un <h1>.</p>
+<h1>Titre 2</h1>
+<p>Ce texte sera vert, car il suit immédiatement un <h1>.</p>
+```
+
+### 🎨 Schéma :
+
+```html
+<h1>Titre 1</h1>
+<p>🟢 vert</p>               <-- Sélectionné, frère suivant immédiat
+<p>⚪ non vert</p>           <-- NON sélectionné, pas frère immédiat
+
+<h1>Titre 2</h1>
+<p>🟢 vert</p>               <-- Sélectionné, frère suivant immédiat
+```
+
+---
