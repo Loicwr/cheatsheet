@@ -17,3 +17,9 @@ Tout commence par la définition d'un conteneur en grille. Pour ce faire, il suf
   display: grid;
 }
 ```
+
+### 🛠️ Que fait ce code ?
+
+- **`display: grid;`** : Cela transforme l'élément en conteneur de grille, prêt à recevoir des éléments enfants qui seront placés dans un format de lignes et de colonnes.
+
+---
