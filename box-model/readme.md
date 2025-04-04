@@ -83,3 +83,28 @@ Le comportement par défaut peut être modifié avec `box-sizing`.
 ```
 
 ---
+
+## 🎯 Exemple pratique
+
+```html
+<div class="box">Hello!</div>
+```
+
+```css
+.box {
+  width: 300px;
+  padding: 20px;
+  border: 5px solid #333;
+  margin: 30px;
+  box-sizing: border-box;
+}
+```
+
+Avec `border-box`, la largeur **totale** reste **300px**.
+
+---
+
+## 📚 Ressources complémentaires
+
+- [MDN Web Docs - Box Model](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_box_model)
+- [CSS-Tricks Guide to Box Model](https://css-tricks.com/the-css-box-model/)
