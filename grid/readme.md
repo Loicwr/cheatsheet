@@ -35,3 +35,16 @@ Une fois ton conteneur en grille, tu peux définir le nombre de colonnes et de l
   grid-template-columns: 1fr 3fr;
 }
 ```
+Ce code crée **deux colonnes** : la première occupe 1 fraction de l'espace (1fr), et la deuxième 3 fractions de l'espace.
+
+### Lignes :
+
+```css
+.container {
+  grid-template-rows: auto auto 1fr;
+}
+```
+
+Ici, on définit **trois lignes** : les deux premières s'ajustent à la taille de leur contenu (`auto`), et la troisième occupe l'espace restant (`1fr`).
+
+---
