@@ -154,3 +154,4 @@ Félicitations ! Tu as maintenant une bonne compréhension des bases de **CSS Gr
 
 Que tu sois en train de créer des sites web, des applications ou des projets plus complexes, CSS Grid te permettra de gagner en flexibilité et en contrôle.
 
+<img src="../images/grid.webp">
