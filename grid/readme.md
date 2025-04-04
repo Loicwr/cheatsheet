@@ -23,3 +23,15 @@ Tout commence par la définition d'un conteneur en grille. Pour ce faire, il suf
 - **`display: grid;`** : Cela transforme l'élément en conteneur de grille, prêt à recevoir des éléments enfants qui seront placés dans un format de lignes et de colonnes.
 
 ---
+
+## 📏 2. Définir des Colonnes et des Lignes
+
+Une fois ton conteneur en grille, tu peux définir le nombre de colonnes et de lignes que tu veux utiliser.
+
+### Colonnes :
+
+```css
+.container {
+  grid-template-columns: 1fr 3fr;
+}
+```
