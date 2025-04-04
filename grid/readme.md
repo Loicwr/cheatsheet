@@ -99,3 +99,17 @@ Une des grandes forces de CSS Grid est la capacité de s’adapter aux différen
 - Tous les éléments sont réorganisés en une **seule colonne** verticale pour s'adapter à l'écran.
 
 ---
+
+## 🎨 5. Ajouter des Espaces et des Gaps
+
+Pour contrôler les espacements entre les éléments de la grille, tu peux utiliser `gap` (anciennement `grid-gap`).
+
+```css
+.container {
+  gap: 20px;
+}
+```
+
+Cela définit un **écart de 20px** entre chaque ligne et chaque colonne de la grille.
+
+---
