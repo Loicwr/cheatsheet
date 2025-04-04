@@ -36,3 +36,30 @@ Voici les **quatre** couches principales du Box Model :
 ### 4. `Margin`
 - Espace **externe** autour de l'élément.
 - Sert à **séparer** les éléments les uns des autres.
+
+---
+
+## 🧮 Calcul de la taille totale d’un élément
+
+Par défaut, la taille totale d’un élément est :
+
+```
+Largeur totale = margin + border + padding + width
+Hauteur totale = margin + border + padding + height
+```
+
+Exemple :
+
+```css
+div {
+  width: 200px;
+  padding: 20px;
+  border: 5px solid black;
+  margin: 10px;
+}
+```
+
+- Largeur totale = 200 + 20*2 + 5*2 = **250px**
+- Hauteur totale = dépend de `height`, calcul similaire
+
+---
