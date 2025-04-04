@@ -65,3 +65,15 @@ Tu as créé la grille, maintenant tu veux positionner les éléments à l'inté
 - **`grid-column: 2 / 3;`** : Cet élément commence à la colonne 2 et finit à la colonne 3.
 - **`grid-row: 2 / 3;`** : L'élément commence à la ligne 2 et finit à la ligne 3.
 
+### Tu peux aussi utiliser des `span` pour étendre un élément sur plusieurs lignes ou colonnes :
+
+```css
+.header {
+  grid-column: span 2;
+}
+```
+
+Cela fait en sorte que l'élément `.header` occupe **deux colonnes**.
+
+---
+
