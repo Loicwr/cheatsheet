@@ -94,10 +94,10 @@ h1 + p {
 
 ```html
 <h1>Titre 1</h1>
-<p>Ce texte sera vert, car il suit immédiatement le <h1>.</p>
-<p>Ce texte ne sera pas vert, car il ne suit pas immédiatement un <h1>.</p>
+<p>Ce texte sera vert, car il suit immédiatement le.</p>
+<p>Ce texte ne sera pas vert, car il ne suit pas immédiatement un.</p>
 <h1>Titre 2</h1>
-<p>Ce texte sera vert, car il suit immédiatement un <h1>.</p>
+<p>Ce texte sera vert, car il suit immédiatement un.</p>
 ```
 
 ### 🎨 Schéma :
@@ -130,11 +130,11 @@ h1 ~ p {
 
 ```html
 <h1>Titre 1</h1>
-<p>Ce texte sera violet, car il suit un <h1>.</p>
-<span>Un autre élément non <p></span>
-<p>Ce texte aussi sera violet, car il suit un <h1>.</p>
+<p>Ce texte sera violet, car il suit un.</p>
+<span>Un autre élément non</span>
+<p>Ce texte aussi sera violet, car il suit un.</p>
 <h1>Titre 2</h1>
-<p>Ce texte sera aussi violet, car il suit un <h1>.</p>
+<p>Ce texte sera aussi violet, car il suit un.</p>
 ```
 
 ### 🎨 Schéma :
@@ -159,3 +159,7 @@ h1 ~ p {
 | **Enfant direct (`>`)** | `div > p { color: blue; }` | 🔵 Seulement les `<p>` qui sont enfants directs d'un `<div>` |
 | **Frère suivant (`+`)** | `h1 + p { color: green; }` | 🟢 Le premier `<p>` qui suit immédiatement un `<h1>` |
 | **Frère général (`~`)** | `h1 ~ p { color: purple; }` | 🟣 Tous les `<p>` qui suivent un `<h1>`, même s'il y a d'autres éléments entre eux |
+
+### Image explication
+
+<img src="../images/Combinators.png">
