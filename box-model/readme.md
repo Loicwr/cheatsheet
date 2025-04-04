@@ -20,3 +20,11 @@ Voici les **quatre** couches principales du Box Model :
 |  +------------------------+ |
 +-----------------------------+
 ```
+
+### 1. `Content`
+- C'est le contenu réel de l'élément (texte, image, etc.).
+- Ses dimensions sont définies via `width` et `height`.
+
+### 2. `Padding`
+- Espace **interne** entre le contenu et la bordure.
+- Sert à **créer de l'espace** autour du contenu, à l'intérieur de l'élément.
