@@ -63,3 +63,23 @@ div {
 - Hauteur totale = dépend de `height`, calcul similaire
 
 ---
+
+## 🛠️ `box-sizing` : maîtriser le Box Model
+
+Le comportement par défaut peut être modifié avec `box-sizing`.
+
+### ✅ `content-box` (par défaut)
+- `width` et `height` ne prennent en compte que le **contenu**.
+- Padding et border s’ajoutent **en plus**.
+
+### ✅ `border-box`
+- `width` et `height` incluent **le padding et la bordure**.
+- Plus facile pour des mises en page précises.
+
+```css
+* {
+  box-sizing: border-box;
+}
+```
+
+---
