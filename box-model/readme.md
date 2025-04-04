@@ -108,3 +108,5 @@ Avec `border-box`, la largeur **totale** reste **300px**.
 
 - [MDN Web Docs - Box Model](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_box_model)
 - [CSS-Tricks Guide to Box Model](https://css-tricks.com/the-css-box-model/)
+
+<img src="../images/css-box-model.svg">
