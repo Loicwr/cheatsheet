@@ -77,3 +77,25 @@ Cela fait en sorte que l'élément `.header` occupe **deux colonnes**.
 
 ---
 
+## 🔄 4. Réagir aux Écrans Plus Petits (Responsive)
+
+Une des grandes forces de CSS Grid est la capacité de s’adapter aux différentes tailles d’écran. En utilisant les **media queries**, tu peux redéfinir la structure de la grille sur les petits écrans.
+
+### Exemple :
+
+```css
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar, .main, .footer {
+    grid-column: 1 / -1;
+  }
+}
+```
+
+- Ici, sur les petits écrans (moins de 768px de large), on passe à **une seule colonne** (1fr).
+- Tous les éléments sont réorganisés en une **seule colonne** verticale pour s'adapter à l'écran.
+
+---
