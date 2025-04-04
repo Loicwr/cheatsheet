@@ -153,3 +153,4 @@ Cela crée une grille où chaque colonne est flexible, mais la largeur minimale 
 Félicitations ! Tu as maintenant une bonne compréhension des bases de **CSS Grid**. Il s'agit d'un outil puissant pour créer des mises en page modernes, fluides et adaptables à toutes les tailles d'écran.
 
 Que tu sois en train de créer des sites web, des applications ou des projets plus complexes, CSS Grid te permettra de gagner en flexibilité et en contrôle.
+
