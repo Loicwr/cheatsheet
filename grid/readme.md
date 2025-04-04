@@ -113,3 +113,29 @@ Pour contrôler les espacements entre les éléments de la grille, tu peux utili
 Cela définit un **écart de 20px** entre chaque ligne et chaque colonne de la grille.
 
 ---
+
+## 💡 6. Astuces Avancées
+
+### Mélanger différentes unités
+
+Tu peux combiner différentes unités comme **`fr`**, **`px`**, **`auto`**, et **`minmax()`** pour des grilles encore plus flexibles.
+
+```css
+.container {
+  grid-template-columns: 1fr minmax(300px, 1fr) 2fr;
+}
+```
+
+- Ici, la **deuxième colonne** a une largeur flexible, mais ne descend pas en dessous de **300px**.
+
+### Créer des zones dynamiques avec `minmax()`
+
+```css
+.container {
+  grid-template-columns: minmax(200px, 1fr) minmax(300px, 2fr);
+}
+```
+
+Cela crée une grille où chaque colonne est flexible, mais la largeur minimale et maximale est définie.
+
+---
