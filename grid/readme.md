@@ -139,3 +139,17 @@ Tu peux combiner différentes unités comme **`fr`**, **`px`**, **`auto`**, et *
 Cela crée une grille où chaque colonne est flexible, mais la largeur minimale et maximale est définie.
 
 ---
+
+## 📚 7. Ressources Utiles
+
+- [MDN - CSS Grid](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_grid_layout)
+- [CSS Tricks Grid Guide](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [Grid Garden](https://cssgridgarden.com/) : Un petit jeu pour apprendre CSS Grid 🍅
+
+---
+
+## 🚀 8. Conclusion
+
+Félicitations ! Tu as maintenant une bonne compréhension des bases de **CSS Grid**. Il s'agit d'un outil puissant pour créer des mises en page modernes, fluides et adaptables à toutes les tailles d'écran.
+
+Que tu sois en train de créer des sites web, des applications ou des projets plus complexes, CSS Grid te permettra de gagner en flexibilité et en contrôle.
