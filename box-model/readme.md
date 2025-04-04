@@ -28,3 +28,11 @@ Voici les **quatre** couches principales du Box Model :
 ### 2. `Padding`
 - Espace **interne** entre le contenu et la bordure.
 - Sert à **créer de l'espace** autour du contenu, à l'intérieur de l'élément.
+
+### 3. `Border`
+- Bordure **entourant** le padding et le contenu.
+- Peut être de différentes **épaisseurs**, **styles**, et **couleurs** (`solid`, `dashed`, etc.).
+
+### 4. `Margin`
+- Espace **externe** autour de l'élément.
+- Sert à **séparer** les éléments les uns des autres.
