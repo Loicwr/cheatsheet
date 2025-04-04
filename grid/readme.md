@@ -48,3 +48,20 @@ Ce code crée **deux colonnes** : la première occupe 1 fraction de l'espace (1f
 Ici, on définit **trois lignes** : les deux premières s'ajustent à la taille de leur contenu (`auto`), et la troisième occupe l'espace restant (`1fr`).
 
 ---
+
+## 🧩 3. Placer les Éléments dans la Grille
+
+Tu as créé la grille, maintenant tu veux positionner les éléments à l'intérieur. C'est là que tu utilises `grid-column` et `grid-row`.
+
+### Placer un élément dans une colonne et une ligne spécifiques :
+
+```css
+.main {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+```
+
+- **`grid-column: 2 / 3;`** : Cet élément commence à la colonne 2 et finit à la colonne 3.
+- **`grid-row: 2 / 3;`** : L'élément commence à la ligne 2 et finit à la ligne 3.
+
