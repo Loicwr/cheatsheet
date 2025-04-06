@@ -102,3 +102,35 @@ $primary: #e67e22;
 - Maintenance simplifiée
 
 ---
+
+## 🪆 5. Nidification (Nesting)
+
+### ➕ À quoi ça sert ?
+La nidification permet d’écrire du CSS de manière hiérarchique, comme le HTML.
+
+### 🧾 Syntaxe :
+```scss
+nav {
+  ul {
+    li {
+      a {
+        color: white;
+
+        &:hover {
+          color: yellow;
+        }
+      }
+    }
+  }
+}
+```
+
+### 🎯 Avantages :
+- Lecture intuitive
+- Plus de clarté sur la structure
+- Compatible avec des BEM, OOCSS, etc.
+
+### ⚠️ Attention :
+Ne pas trop imbriquer (max 3 niveaux). Sinon ton CSS devient trop spécifique et difficile à maintenir.
+
+---
