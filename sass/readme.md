@@ -54,3 +54,25 @@ Tu évites les répétitions, et ton CSS devient plus DRY (Don't Repeat Yourself
 - Réutilisable dans tout le projet
 
 ---
+## 🧠 3. Fonctions
+
+### ➕ À quoi ça sert ?
+Une fonction retourne une valeur. Tu peux l’utiliser pour faire des calculs dynamiques (ex: convertir des unités, ajuster des couleurs…).
+
+### 🧾 Syntaxe :
+```scss
+@function rem($px, $base: 16) {
+  @return $px / $base * 1rem;
+}
+
+p {
+  font-size: rem(18); // 1.125rem
+}
+```
+
+### 🎯 Avantages :
+- Très utile pour les systèmes de grille, typographie responsive
+- Logique centralisée et facilement ajustable
+- Fonctionne parfaitement avec les mixins et boucles
+
+---
