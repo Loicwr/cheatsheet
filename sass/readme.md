@@ -194,3 +194,25 @@ $base-color: #3498db;
 > Crée `.shade-1` à `.shade-5` avec des variantes plus claires d’une couleur de base 🎨
 
 ---
+
+## Tu veux aller plus loin ? 🔥
+
+- 💡 **Intégration avec Tailwind, Bootstrap, ou ton design system**
+- 🧱 **Génération automatique de grilles ou typographie responsive**
+- 📦 **Ajout de conditions logiques dans les mixins**
+- ⚙️ **Intégration dans un build system (Vite, Webpack…)**
+
+---
+
+## 🎨 **Mécanisme du Preprocessing (Input => Output)**
+
+### ➕ Qu'est-ce que le preprocessing ?
+Le preprocessing est un processus de transformation du code source avant qu'il ne soit utilisé par le navigateur. Dans le cas de Sass, le code Sass (fichiers `.scss` ou `.sass`) est un code source que l'on écrit, et il est ensuite transformé (ou "compilé") en CSS valide, que le navigateur peut interpréter.
+
+### 🔄 **Processus : Input => Output**
+- **Input** : Tu écris du **code Sass** (fichiers `.scss` ou `.sass`) avec des fonctionnalités comme des **variables**, des **mixins**, des **fonctions**, des **boucles**, etc.
+- **Compilation** : Le compilateur Sass prend ton code Sass et le convertit en **CSS valide**.
+- **Output** : Le résultat final est un fichier **CSS normal** que le navigateur peut comprendre.
+
+### 🧳 Exemple pratique de preprocessing (Input => Output)
+
