@@ -176,3 +176,21 @@ $i: 1;
 > Fonctionne comme une boucle `while` classique.
 
 ---
+
+## 🎁 BONUS : Petite astuce Sass
+
+Générer un dégradé de teintes automatiquement :
+
+```scss
+$base-color: #3498db;
+
+@for $i from 1 through 5 {
+  .shade-#{$i} {
+    background-color: lighten($base-color, 5% * $i);
+  }
+}
+```
+
+> Crée `.shade-1` à `.shade-5` avec des variantes plus claires d’une couleur de base 🎨
+
+---
