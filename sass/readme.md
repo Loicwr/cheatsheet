@@ -216,3 +216,49 @@ Le preprocessing est un processus de transformation du code source avant qu'il n
 
 ### 🧳 Exemple pratique de preprocessing (Input => Output)
 
+#### **Input** (fichier `style.scss`)
+```scss
+$primary-color: #3498db;
+$font-size: 16px;
+
+@mixin button($bg-color) {
+  background-color: $bg-color;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+button {
+  @include button($primary-color);
+  font-size: $font-size;
+}
+```
+
+#### **Output** (fichier `style.css`)
+```css
+button {
+  background-color: #3498db;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+```
+
+### ➕ En résumé :
+Le preprocessing fait en sorte que ton code Sass soit plus lisible, modulable et maintenable tout en générant un fichier CSS final qui est interprété par le navigateur.
+
+---
+
+## 🔥 **Pourquoi ce processus est utile ?**
+- ✅ **Maintien et lisibilité** : Sass permet de maintenir et de lire plus facilement des fichiers CSS complexes.
+- ✅ **Réutilisation** : Les mixins et les fonctions permettent de réutiliser facilement des blocs de styles et de ne pas répéter le même code.
+- ✅ **Centralisation des valeurs** : En utilisant des variables, tu centralises toutes les valeurs importantes (couleurs, tailles de police, espacements), ce qui facilite la modification globale du site.
+
+---
+
+## 🎨 **Le workflow complet de Sass**
+
+1. **Rédaction du code avec Sass** : Tu écris ton code Sass avec des fonctionnalités comme des variables, mixins, fonctions, et boucles.
+2. **Utilisation de la commande de compilation** : Tu utilises la commande `sass --watch style.scss:style.css` pour compiler ton fichier `.scss` en un fichier `.css`.
+3. **Fichier CSS généré** : Le fichier `.css` résultant est un fichier normal que ton navigateur peut interpréter et qui contient les styles du site.
+
+---
