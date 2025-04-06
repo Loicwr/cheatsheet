@@ -76,3 +76,29 @@ p {
 - Fonctionne parfaitement avec les mixins et boucles
 
 ---
+
+## 📂 4. Partials & Imports
+
+### ➕ À quoi ça sert ?
+Tu peux découper ton code Sass en plusieurs fichiers (partials), pour mieux l’organiser.  
+Ensuite, tu les importes dans un fichier principal (style.scss par exemple).
+
+### 🧾 Syntaxe :
+**_variables.scss**
+```scss
+$primary: #e67e22;
+```
+
+**style.scss**
+```scss
+@use 'variables';
+```
+
+> Les fichiers commençant par un `_` sont non compilés directement : ce sont des partials.
+
+### 🎯 Avantages :
+- Code plus propre et lisible
+- Fichiers spécialisés (typographie, layout, composants…)
+- Maintenance simplifiée
+
+---
