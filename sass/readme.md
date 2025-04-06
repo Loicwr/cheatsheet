@@ -134,3 +134,45 @@ nav {
 Ne pas trop imbriquer (max 3 niveaux). Sinon ton CSS devient trop spécifique et difficile à maintenir.
 
 ---
+
+## 🔁 6. Boucles
+
+### ➕ À quoi ça sert ?
+Les boucles te permettent de générer du code répétitif dynamiquement, très utile pour les grilles, marges, colonnes, etc.
+
+### 🌀 `@for`
+```scss
+@for $i from 1 through 5 {
+  .col-#{$i} {
+    width: 20% * $i;
+  }
+}
+```
+> Crée `.col-1`, `.col-2`, ... jusqu’à `.col-5`
+
+### 🧾 `@each`
+```scss
+$colors: red, green, blue;
+
+@each $color in $colors {
+  .bg-#{$color} {
+    background-color: $color;
+  }
+}
+```
+> Gère une liste de couleurs, tailles, noms de classes dynamiquement.
+
+### 🔄 `@while`
+```scss
+$i: 1;
+
+@while $i < 4 {
+  .box-#{$i} {
+    height: 50px * $i;
+  }
+  $i: $i + 1;
+}
+```
+> Fonctionne comme une boucle `while` classique.
+
+---
