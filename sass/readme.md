@@ -20,3 +20,10 @@ body {
   padding: $padding;
 }
 ```
+
+### 🎯 Avantages :
+- Modifier une seule variable et tout ton style s’ajuste
+- Meilleure organisation
+- Facilite la création de thèmes (ex: mode sombre)
+
+---
