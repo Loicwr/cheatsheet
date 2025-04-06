@@ -27,3 +27,30 @@ body {
 - Facilite la création de thèmes (ex: mode sombre)
 
 ---
+
+## 🧩 2. Mixins
+
+### ➕ À quoi ça sert ?
+Les mixins te permettent de réutiliser des blocs de code CSS avec ou sans paramètres.  
+Tu évites les répétitions, et ton CSS devient plus DRY (Don't Repeat Yourself).
+
+### 🧾 Syntaxe :
+```scss
+@mixin button-style($bg-color, $text-color) {
+  background-color: $bg-color;
+  color: $text-color;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+.button {
+  @include button-style(#3498db, white);
+}
+```
+
+### 🎯 Avantages :
+- Paramétrable (comme une fonction)
+- Centralisation de styles
+- Réutilisable dans tout le projet
+
+---
