@@ -14,6 +14,9 @@ Ce fichier regroupe les éléments HTML5 sémantiques et leur utilisation afin d
 ### 3. [**CSS**](Css/readme.md)
 Cette section contient des rappels sur la syntaxe de base, l'insertion de CSS, ainsi que les différents types de sélecteurs utilisés pour cibler les éléments à styliser.
 
+### 4. [**Grid**](grid/readme.md)
+
+CSS Grid est un système de mise en page basé sur une grille, qui permet d’organiser les éléments en lignes et colonnes. Contrairement à Flexbox, qui est axé sur une seule direction (horizontale ou verticale), Grid permet de gérer les deux dimensions simultanément.
 
 ### 3. [**Flexbox**](flexbox/readme.md)
 Flexbox est un modèle de mise en page en CSS qui permet de créer des mises en page flexibles et réactives. Ce fichier résume les propriétés essentielles et la syntaxe à connaître.
