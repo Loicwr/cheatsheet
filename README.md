@@ -18,17 +18,21 @@ Cette section contient des rappels sur la syntaxe de base, l'insertion de CSS, a
 
 CSS Grid est un système de mise en page basé sur une grille, qui permet d’organiser les éléments en lignes et colonnes. Contrairement à Flexbox, qui est axé sur une seule direction (horizontale ou verticale), Grid permet de gérer les deux dimensions simultanément.
 
-### 3. [**Flexbox**](flexbox/readme.md)
+### 5. [**Flexbox**](flexbox/readme.md)
 Flexbox est un modèle de mise en page en CSS qui permet de créer des mises en page flexibles et réactives. Ce fichier résume les propriétés essentielles et la syntaxe à connaître.
 
-### 4. [**Positionnement**](positionnement/readme.md)
+### 6. [**Positionnement**](positionnement/readme.md)
 Le positionnement en CSS permet de manipuler la position des éléments sur la page. Cette section présente les différentes méthodes de positionnement disponibles en CSS : `static`, `relative`, `absolute`, `fixed`, et `sticky`.
 
-### 5. [**Unités CSS**](unités-Css/readme.md)
+### 7. [**Unités CSS**](unités-Css/readme.md)
 Ce fichier décrit les unités de mesure couramment utilisées en CSS, comme les unités relatives (`em`, `rem`, `%`) et absolues (`px`, `vw`, `vh`, etc.), ainsi que leur utilisation appropriée dans le contexte de mise en page.
 
-### 6. [**Combinateurs**](combinateurs/readme.md)
+### 8. [**Combinateurs**](combinateurs/readme.md)
 Les combinateurs en CSS permettent de sélectionner des éléments en fonction de leur relation avec d'autres éléments. Cette cheatsheet couvre les différents types de combinateurs et leur utilisation.
+
+### 9. [**préprocesseur CSS**](preprocesseur/readme.md)
+
+Un préprocesseur CSS, c’est un outil qui ajoute des fonctionnalités supplémentaires au CSS standard. Il te permet d’écrire du CSS plus facilement, plus proprement et de façon plus maintenable.
 
 ### Auteur & collaborateurs :
 
