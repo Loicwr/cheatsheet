@@ -4,10 +4,14 @@ Ce dépôt contient des cheatsheets sur différents sujets du développement web
 
 ## Contenu
 
-### 1. [**cheat-sheet-semantique**](cheat-sheet-semantique/readme.md)
+### 1. [**Git**](git/readme.md)
+
+Ce document est un guide pratique pour comprendre et maîtriser Git.
+
+### 2. [**cheat-sheet-semantique**](cheat-sheet-semantique/readme.md)
 Ce fichier regroupe les éléments HTML5 sémantiques et leur utilisation afin de structurer correctement le contenu d'une page web.
 
-### 2. [**CSS**](Css/readme.md)
+### 3. [**CSS**](Css/readme.md)
 Cette section contient des rappels sur la syntaxe de base, l'insertion de CSS, ainsi que les différents types de sélecteurs utilisés pour cibler les éléments à styliser.
 
 
