@@ -1,3 +1,32 @@
+
+
+
+# 1. Qu'est-ce que JavaScript (JS) ?
+
+## Le langage de l'interactivité
+
+Imaginez une page web comme une maison :
+
+- **HTML** (*HyperText Markup Language*) est la **structure** de la maison (les murs, le toit, les pièces).
+- **CSS** (*Cascading Style Sheets*) est la **décoration** (la couleur des murs, le style des meubles, l'agencement).
+- **JavaScript** est **l'électricité et la plomberie** :  
+  Il permet aux choses de fonctionner, de réagir :  
+  allumer la lumière quand on appuie sur l'interrupteur, ouvrir le robinet pour avoir de l'eau, etc.
+
+### Côté client
+
+JavaScript s'exécute principalement **dans le navigateur web** de l'utilisateur (Chrome, Firefox, Safari...).  
+C'est pourquoi on l'appelle souvent un langage **"côté client"** (*client-side*) dans le contexte du front-end.
+
+### Pas Java !
+
+⚠️ **Attention** : JavaScript n'a presque **rien à voir** avec le langage **Java**, malgré la ressemblance du nom.  
+C'est une confusion fréquente au début !
+
+
+
+
+
 # Déclarations
 
 ### Il existe trois type de déclarations de variable en JavaScript
