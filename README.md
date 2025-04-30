@@ -4,24 +4,54 @@ Ce dépôt contient des cheatsheets sur différents sujets du développement web
 
 ## Contenu
 
-### 1. [**cheat-sheet-semantique**](cheat-sheet-semantique/readme.md)
+### 1. [**Git**](git/readme.md)
+
+Ce document est un guide pratique pour comprendre et maîtriser Git.
+
+### 2. [**cheat-sheet-semantique**](cheat-sheet-semantique/readme.md)
+
 Ce fichier regroupe les éléments HTML5 sémantiques et leur utilisation afin de structurer correctement le contenu d'une page web.
 
-### 2. [**CSS**](Css/readme.md)
+### 3. [**CSS**](Css/readme.md)
+
 Cette section contient des rappels sur la syntaxe de base, l'insertion de CSS, ainsi que les différents types de sélecteurs utilisés pour cibler les éléments à styliser.
 
+### 4. [**Grid**](grid/readme.md)
 
-### 3. [**Flexbox**](flexbox/readme.md)
+CSS Grid est un système de mise en page basé sur une grille, qui permet d’organiser les éléments en lignes et colonnes. Contrairement à Flexbox, qui est axé sur une seule direction (horizontale ou verticale), Grid permet de gérer les deux dimensions simultanément.
+
+### 5. [**Flexbox**](flexbox/readme.md)
+
 Flexbox est un modèle de mise en page en CSS qui permet de créer des mises en page flexibles et réactives. Ce fichier résume les propriétés essentielles et la syntaxe à connaître.
 
-### 4. [**Positionnement**](positionnement/readme.md)
+### 6. [**Box-model**](box-model/readme.md)
+
+Le Box Model est la base du positionnement et de la mise en page en CSS. Chaque élément HTML est considéré comme une boîte composée de plusieurs parties :
+
+### 7. [**Positionnement**](positionnement/readme.md)
+
 Le positionnement en CSS permet de manipuler la position des éléments sur la page. Cette section présente les différentes méthodes de positionnement disponibles en CSS : `static`, `relative`, `absolute`, `fixed`, et `sticky`.
 
-### 5. [**Unités CSS**](unités-Css/readme.md)
+### 8. [**Unités CSS**](unités-Css/readme.md)
+
 Ce fichier décrit les unités de mesure couramment utilisées en CSS, comme les unités relatives (`em`, `rem`, `%`) et absolues (`px`, `vw`, `vh`, etc.), ainsi que leur utilisation appropriée dans le contexte de mise en page.
 
-### 6. [**Combinateurs**](combinateurs/readme.md)
+### 9. [**Combinateurs**](combinateurs/readme.md)
+
 Les combinateurs en CSS permettent de sélectionner des éléments en fonction de leur relation avec d'autres éléments. Cette cheatsheet couvre les différents types de combinateurs et leur utilisation.
+
+### 10. [**préprocesseur CSS**](preprocesseur/readme.md)
+
+Un préprocesseur CSS, c’est un outil qui ajoute des fonctionnalités supplémentaires au CSS standard. Il te permet d’écrire du CSS plus facilement, plus proprement et de façon plus maintenable.
+
+### 11. [**SASS**](sass/readme.md)
+
+SASS est le préprocesseur CSS le plus connu et utilisé.
+
+### 11. [**JavaScript**](javascript/readme.md)
+
+JavaScript (JS) est un langage essentiel pour un développeur front-end. Il te permet de rendre les sites web interactifs : animations, réponses aux clics, formulaires dynamiques, etc.
+
 
 ### Auteur & collaborateurs :
 
