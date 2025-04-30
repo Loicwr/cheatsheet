@@ -83,8 +83,36 @@ La "syntaxe" d'un langage, c'est un peu comme sa grammaire et son orthographe. C
     * **Environnement d'exécution (Runtime Environment) :** C'est le "programme" qui lit, comprend et exécute votre code JavaScript. Pour le développement front-end, l'environnement principal est le **navigateur web** (Chrome, Firefox, Safari, Edge...). Chaque navigateur possède son propre moteur JavaScript intégré. Cet environnement fournit non seulement le moteur pour exécuter le JS, mais aussi des objets et des API spécifiques (comme `window`, `document`, `console` dans le navigateur) qui permettent à votre code d'interagir avec la page web ou le navigateur lui-même.
     * *(Note : Il existe d'autres environnements, comme Node.js, qui permet d'exécuter du JavaScript côté serveur, mais pour le front-end, vous vous concentrerez sur l'environnement du navigateur).*
 
+# 4. Ce qu'est une instruction
 
-# 4. Comment commencer avec JavaScript ?
+Une **instruction** (ou "statement" en anglais) est une **unité de code unique qui effectue une action**. C'est une commande que vous donnez à l'ordinateur. En JavaScript, les instructions sont généralement séparées par un point-virgule (`;`).
+
+Exemples d'instructions :
+
+* Déclarer une variable : `let age;`
+* Assigner une valeur à une variable : `age = 30;`
+* Déclarer et assigner en une seule fois : `let nom = "Bob";`
+* Appeler une fonction : `console.log("Bonjour !");`
+* Une structure de contrôle entière (`if`, `for`) peut aussi être considérée comme une instruction complexe, même si elle contient d'autres instructions à l'intérieur de blocs `{}`.
+
+# 5. Ce qu'est l'insertion automatique (ou implicite) de point-virgule (ASI)
+
+* **Le principe :** JavaScript essaie d'être "gentil". Si vous oubliez un point-virgule à la fin d'une ligne où il devrait y en avoir un, le moteur JavaScript va *souvent* (mais pas toujours !) l'ajouter automatiquement pour vous au moment où il analyse le code. C'est l'ASI (Automatic Semicolon Insertion).
+* **Le piège :** Bien que cela puisse sembler pratique, l'ASI peut parfois entraîner des erreurs très difficiles à trouver, car le moteur peut insérer un point-virgule là où vous ne le vouliez pas, ou ne pas en insérer là où il en faudrait un dans des cas complexes. Par exemple :
+    ```javascript
+    // Exemple où l'ASI peut causer un problème
+    return // ASI insère un point-virgule ici !
+    { // Cet objet ne sera jamais retourné
+      statut: "ok"
+    }
+    // Le code ci-dessus est interprété comme :
+    // return;
+    // { statut: "ok" }; // Ce bloc est juste ignoré ou cause une erreur
+    ```
+* **La bonne pratique (surtout pour les débutants) :** **Toujours mettre explicitement les points-virgules à la fin de chaque instruction.** Cela rend votre code plus clair, plus prévisible et vous évite les problèmes potentiels liés à l'ASI. C'est une habitude adoptée par la grande majorité des développeurs et des outils de formatage de code.
+
+
+# 6. Comment commencer avec JavaScript ?
 
 #### Outils de base
 
