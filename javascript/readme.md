@@ -30,3 +30,16 @@ Tout ce qui est écrit ici est entre commentaires.
 ## Sur une seule ligne : 
 
 // Voici un commentaire
+
+
+# Opérateurs 
+
+## Un opérateur est un symbole mathématique qui produit un résultat en fonction de deux valeurs (ou variables). Le tableau suivant liste certains des opérateurs les plus simples ainsi que des exemples que vous pouvez tester dans votre console JavaScript.
+
+| Opérateur                        | Explication                                                                                                                                         | Symbole(s)     | Exemple                                                                                                 |
+|----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|----------------|---------------------------------------------------------------------------------------------------------|
+| Addition                         | Utilisé pour ajouter deux nombres ou concaténer (accoller) deux chaînes.                                                                            | `+`            | `6 + 9;` <br> `"Bonjour " + "monde !";`                                                                  |
+| Soustraction, multiplication, division | Les opérations mathématiques de base.                                                                                                              | `-`, `*`, `/`  | `9 - 3;` <br> `8 * 2;` // pour multiplier, on utilise un astérisque <br> `9 / 3;`                        |
+| Assignation                      | On a déjà vu cet opérateur : il affecte une valeur à une variable.                                                                                  | `=`            | `let myVariable = 'Bob';`                                                                               |
+| Égalité                          | Teste si deux valeurs sont égales et renvoie un booléen `true` / `false` comme résultat.                                                            | `===`          | `let myVariable = 3;` <br> `myVariable === 4;`                                                           |
+| Négation, N’égale pas            | Renvoie la valeur logique opposée à ce qui précède ; il change `true` en `false`, etc. Utilisé avec l’opérateur d’égalité, il teste la non-égalité. | `!`, `!==`     | `let myVariable = 3;` <br> `!(myVariable === 3);` <br><br> `let myVariable = 3;` <br> `myVariable !== 3;` |
