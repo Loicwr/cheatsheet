@@ -10,5 +10,5 @@
 # Différents types de données :
 
 | Varaible | Explication | Exemple |
-| :------: | :---------: | :-----: |
+| :----------------------: | :---------------------------: | :-------------------------: |
 |**Chaîne de caractères** | Une suite de caractères connue sous le nom de chaîne. Pour indiquer que la valeur est une chaîne, il faut la placer entre guillemets. | let myVariable = 'Bob'; |
