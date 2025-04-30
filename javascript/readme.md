@@ -1,6 +1,6 @@
 # Déclarations
 
-## Il existe trois type de déclarations de variable en JavaScript
+### Il existe trois type de déclarations de variable en JavaScript
 
 **var**   : On déclare une variable ,éventuellement en initialisant sa valeur.
 
@@ -21,7 +21,7 @@
 
 # 2 type de commentaires possible 
 
-## Sur plusieurs lignes :
+### Sur plusieurs lignes :
 
 /*
 Tout ce qui est écrit ici est entre commentaires.
@@ -34,7 +34,7 @@ Tout ce qui est écrit ici est entre commentaires.
 
 # Opérateurs 
 
-## Un opérateur est un symbole mathématique qui produit un résultat en fonction de deux valeurs (ou variables). Le tableau suivant liste certains des opérateurs les plus simples ainsi que des exemples que vous pouvez tester dans votre console JavaScript.
+### Un opérateur est un symbole mathématique qui produit un résultat en fonction de deux valeurs (ou variables). Le tableau suivant liste certains des opérateurs les plus simples ainsi que des exemples que vous pouvez tester dans votre console JavaScript.
 
 | Opérateur                        | Explication                                                                                                                                         | Symbole(s)     | Exemple                                                                                                 |
 |----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|----------------|---------------------------------------------------------------------------------------------------------|
