@@ -39,6 +39,26 @@ Sans JavaScript, les pages web seraient largement **statiques** (comme une affic
 
 ---
 
+# 3. Comment commencer avec JavaScript ?
+
+#### Outils de base
+
+- Un **navigateur web** : Chrome ou Firefox sont excellents pour les développeurs car ils ont de très bons outils de développement intégrés.
+- Un **éditeur de code** :  
+  Comme **Visual Studio Code** (gratuit et très populaire), **Sublime Text**, **Atom**...  
+  Un simple bloc-notes peut suffire au tout début, mais un éditeur de code vous facilitera grandement la vie.
+
+#### Où écrire le code JS ?
+
+- **Dans le fichier HTML** : directement entre des balises `<script> ... </script>`.  
+  C’est bien pour des petits tests rapides.
+- **Dans un fichier externe** : méthode recommandée.  
+  Vous créez un fichier séparé avec l’extension `.js` (par exemple `monscript.js`) et vous le liez à votre fichier HTML avec une balise :
+
+    ```html 
+    <script src="monscript.js"></script> 
+    ```
+    Généralement placée juste avant la fermeture de la balise `</body>`.
 
 
 # Déclarations
