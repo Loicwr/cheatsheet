@@ -170,7 +170,7 @@ Tout ce qui est écrit ici est entre commentaires.
 
 # Opérateurs 
 
-### Un opérateur est un symbole mathématique qui produit un résultat en fonction de deux valeurs (ou variables). Le tableau suivant liste certains des opérateurs les plus simples ainsi que des exemples que vous pouvez tester dans votre console JavaScript.
+### Un opérateur est un symbole mathématique qui produit un résultat en fonction de deux valeurs (ou variables). Le tableau suivant liste certains des opérateurs les plus simples ainsi que des exemples que vous pouvez tester dans votre console JavaScript
 
 | Opérateur                        | Explication                                                                                                                                         | Symbole(s)     | Exemple                                                                                                 |
 |----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|----------------|---------------------------------------------------------------------------------------------------------|
