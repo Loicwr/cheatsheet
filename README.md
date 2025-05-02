@@ -48,6 +48,11 @@ Un préprocesseur CSS, c’est un outil qui ajoute des fonctionnalités supplém
 
 SASS est le préprocesseur CSS le plus connu et utilisé.
 
+### 11. [**JavaScript**](javascript/readme.md)
+
+JavaScript (JS) est un langage essentiel pour un développeur front-end. Il te permet de rendre les sites web interactifs : animations, réponses aux clics, formulaires dynamiques, etc.
+
+
 ### Auteur & collaborateurs :
 
 - **GitHub**: [Loic](https://github.com/Loicwr)
