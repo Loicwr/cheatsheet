@@ -9,9 +9,7 @@ La classe est comme un plan, un modèle, une recette.
 L’instance est l’objet réel que tu crées en utilisant ce modèle.
 
 #### 🛠️ Exemple en JavaScript :
-js
-Copier
-Modifier
+
 class Voiture {
   constructor(marque) {
     this.marque = marque;
@@ -25,6 +23,7 @@ class Voiture {
 // Création d'instances :
 const v1 = new Voiture("Toyota");
 const v2 = new Voiture("Tesla");
+
 #### 🔍 Ici :
 
 Voiture est une classe
