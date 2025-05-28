@@ -24,3 +24,17 @@
 
 - Parfois il y a des incompatibilités avec certains packages
 - Deux versions majeures ( CLASSIC et BERRY ) peuvent créer de la confusion
+
+
+## PNPM ( Performant NPM)
+    le plus récent , axé sur la performance et l'éfficacité d'espaces disque
+
+- Il est très rapide et économe en espace de disque
+- Système de liens symboliques intelligent
+- Compatible avec npm et yarn
+- Gestion stricte des dépendances ( évite les " phantom dependices ")
+
+---
+
+- Moins populaire, communauté plus petite
+-peut parfois poser des problèmes avec certain outils
