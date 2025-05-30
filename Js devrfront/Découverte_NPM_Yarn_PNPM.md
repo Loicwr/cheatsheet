@@ -37,4 +37,21 @@
 ---
 
 - Moins populaire, communauté plus petite
--peut parfois poser des problèmes avec certain outils
+- peut parfois poser des problèmes avec certain outils
+
+# Comparaison NPM vs Yarn vs PNPM
+
+## Tableau de comparaison principal
+
+| Critère | NPM | Yarn | PNPM |
+|---------|-----|------|------|
+| **Vitesse** | Correcte | Rapide | Très rapide |
+| **Espace disque** | Standard | Standard | Très optimisé |
+| **Popularité** | Très élevée | Élevée | Croissante |
+| **Installation** | Inclus | À installer | À installer |
+| **Sécurité** | Bonne | Très bonne | Excellente |
+| **Gestion des dépendances** | Flexible | Stricte | Très stricte |
+| **Support des workspaces** | Oui (v7+) | Excellent | Excellent |
+| **Taille du cache** | Standard | Standard | Très optimisé |
+| **Compatibilité** | Référence | Très bonne | Bonne |
+| **Courbe d'apprentissage** | Facile | Modérée | Modérée |
